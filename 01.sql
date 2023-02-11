@@ -14,6 +14,8 @@ id      int auto_increment primary key
 
 ,Status CHAR(1)
 
-,comments   text        
+,comments   text 
+  
+,email varchar(30)
 
 );
